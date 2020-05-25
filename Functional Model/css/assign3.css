@@ -1,0 +1,193 @@
+.iform {
+  margin-left: 10px;
+}
+
+.valid1 {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 220px;
+  font-weight: normal;
+  margin-right: 35px;
+  margin-bottom: 0px;
+  background-color: #f9f9f9;
+}
+
+.valid2 {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 525px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  background-color: #f9f9f9;
+}
+
+.valid-col {
+  height: 13px;
+  width: 35px;
+  border-radius: 6px;
+}
+
+.valid-sel {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: auto;
+  display: inline;
+  border-collapse: separate;
+  /* height: 25px;
+  width: 120px; */
+  font-weight: normal;
+  background-color: #f9f9f9;
+}
+
+.valid-zip {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 110px;
+  font-weight: normal;
+  background-color: #f9f9f9;
+}
+
+.valid-state {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 90px;
+  font-weight: normal;
+  background-color: #f9f9f9;
+}
+
+.error1 {
+  border-radius: 4px;
+  border: 1px solid red;
+  height: 20px;
+  width: 220px;
+  font-weight: normal;
+  margin-right: 35px;
+  margin-bottom: 0px;
+  background-color: pink;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.error2 {
+  border-radius: 4px;
+  border: 1px solid red;
+  height: 20px;
+  width: 525px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  background-color: pink;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.error-sel {
+  border-radius: 4px;
+  border: 1px solid red;
+  margin: auto;
+  display: inline;
+  border-collapse: separate;
+  /* height: 25px;
+  width: 120px; */
+  font-weight: normal;
+  background-color: pink;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.error-zip {
+  border-radius: 4px;
+  border: 1px solid red;
+  height: 20px;
+  width: 110px;
+  font-weight: normal;
+  background-color: pink;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.error-state {
+  border-radius: 4px;
+  border: 1px solid red;
+  height: 20px;
+  width: 90px;
+  font-weight: normal;
+  background-color: pink;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.valid-cont {
+  /* height: 20px;
+  width: 220px; */
+  font-weight: normal;
+  /* margin-right: 35px;
+  margin-bottom: 0px; */
+}
+
+.error-cont {
+  border-radius: 4px;
+  border: 1px solid red;
+  font-weight: normal;
+  background-color: pink;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.valid-btn {
+  background-color: white;
+  border-color: "";
+  background-image: "";
+}
+
+.error-btn {
+  padding: 5px 45px 10px 5px;
+  background-color: pink;
+  border-color: red;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 4px;
+}
+
+.display-err {
+  margin: 5px;
+  padding: 10px 55px 10px 10px;
+  display: block;
+  background-color: pink;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-image: url("../images/error.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.no-display {
+  display: none;
+}
+
+.ty-form {
+  display: block;
+  font-weight: bold;
+  margin: 10px;
+  width: 900px;
+  margin: 10px auto;
+  background-color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  border: 1px solid #d9d9d9;
+}
+
+.ty {
+  padding: 10px 20px;
+  margin: 10px 20px;
+  font-size: 16px;
+}

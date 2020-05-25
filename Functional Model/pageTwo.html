@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/assign1.css">
+    <link rel="stylesheet" href="css/assign2.css">
+    <title>Assignment 3 - Page 2</title>
+    </head>
+
+
+
+    <body class= "body">
+      <header>
+        <ul class="nav-top">
+          <li class="navtop"> Checkout</li>
+          <li class="navtop"> Shopping Cart</li>
+          <li class="navtop"> Wish List</li>
+          <li class="navtop"> My Account</li>
+        </ul>
+
+        <h1>Art Store</h1>
+
+        <ul class="nav-bottom">
+          <li class="navbot"> Home</li>
+          <li class="navbot"> About Us</li>
+          <li class="navbot"> Art Work</li>
+          <li class="navbot"> Artists</li>
+        </ul>
+      </header>
+
+    <div class="block">
+      <a href="https://hopper.wlu.ca/~reey6640/ass3_reey6640/pageTwo.html"> pageTwo.html </a> <br/>
+      <a href="https://hopper.wlu.ca/~reey6640/ass3_reey6640/register.php"> register.php </a>
+        <h3>Customer Registration</h3>
+        <form id = "form" action="register.php">
+            <h2>1. User Info</h2>
+            <table class="iform">
+                <tr>
+                    <th><label>First Name</label> <br>
+                    <input class="iform1" type="text" name="firstname"></th>
+
+                    <th><label>Last Name</label> <br>
+                    <input class = "iform1" type="text" name="lastname"></th>
+                </tr>
+
+                <tr>
+                    <th colspan="2"><label>Email</label> <br>
+                        <input class="iform2" type="text" name="email" placeholder=" format for email is xxx@yyy.zzz"> </th>
+                </tr>
+
+                <tr>
+                    <th><label>Password</label> <br>
+                        <input class="iform1" type="password" name="password" placeholder=" at least 8 characters"></th>
+                    <th><label>Password Repeat </label> <br>
+                        <input class="iform1" type="password" name=pass_repeat placeholder=" at least 8 characters"></th>
+                </tr>
+
+              </table>
+
+              <h2>2. Location</h2>
+              <table class="iform">
+                <tr>
+                    <th colspan="2"><label>Address</label> <br>
+                      <input class="iform2" type="text" name="Address"></th>
+                </tr>
+
+                <tr>
+                    <th><label>City</label> <br>
+                    <input class="iform1" type="text" name="city"></th>
+
+                     <th>
+                         <table id="stat-zip">
+                             <tr>
+                          <th><label>State</label> <br>
+                              <input class="iform-state" type="text" name="state" size="15"></th>
+
+                          <th id="block-state"><label>Zip</label><br>
+                          <input class="iform-zip" type="text" name="zip" size="25"> </th>
+                             </tr>
+                         </table>
+                    </th>
+                  </tr>
+                <tr>
+                    <th><label>Phone</label> <br>
+                    <input class="iform1" type="text" name="Phone" placeholder=" NNN-NNN-NNNN"></th>
+                      <th><label>Country</label> <br>
+                        <select class="iform-sel">
+                          <option value="canada">Canada</option>
+                          <option value="us">United States</option>
+                          <option value="mexico">Mexico</option>
+                          <option value="ireland">Ireland</option>
+                        </select></th>
+                </tr>
+
+                <div id=cont> <!--Error accepted-->
+                <tr>
+                  <td id="radio"><label>Continent</label><br></td>
+                </tr>
+                <tr>
+                  <th class="select">
+                    <input type="radio" name="continent" value="na" id="namerica"> North America<br>
+                    <input type="radio" name="continent" value="eu" id="eu"> Europe<br>
+                    <input type="radio" name="continent" value="sa" id="samerica"> South America
+                  </th>
+                </div>
+            </table>
+
+                <h2>3. Personal Details</h2>
+                <table class="iform">
+
+                  <tr>
+                      <th><label>Birthday</label> <br>
+                      <input class="iform1" type="text" name="Birthday"></th>
+
+
+                      <th><label>Favorite Color</label> <br>
+                      <input class="iform-col" type="color" name="fav-color"></th>
+                  </tr>
+
+                    <tr>
+                  <th colspan="2"><label>Interest In Art</label><br>
+                  <div>
+                    <label class="small">Minimal</label>
+                    <input type="range"  class="slider">
+                    <label class="small">Love It!</label>
+                  </div></th>
+                    </tr>
+                  </table>
+
+
+                  <h2>4. All Done</h2>
+                  <table class="iform">
+                    <tr>
+                      <th>
+                          <div id="chkbox">
+                            <input  type="checkbox" name="terms" value="agreement"> I agree to the <a href="#">Terms of the Site </a>
+                          </div>
+                          <div id="errs">
+                            <h3>Errors were encountered</h3>
+                          </div>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="btn" type="submit" action="submit" id="submitting"><img class="btnimg" src="images/button_ok.png" alt="ok image"> Sign me Up!</button>
+                      </td>
+                    </tr>
+                  </table>
+        </form>
+    </div>
+
+    <div class = "footer">
+      <div class ="footer-text">
+        <p> All images are copyright to their owners. This is just a hypothetical site &copy; 2014 Copyright Art Store</p>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/assign2-2.js"></script>
+    <script type="text/javascript" src="js/assign3.js"></script>
+</body>
+</html>

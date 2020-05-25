@@ -1,0 +1,139 @@
+.block {
+  width: 900px;
+  margin: 10px auto;
+  background-color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  border: 1px solid #d9d9d9;
+  overflow: auto;
+}
+
+.desc {
+  padding: 0px;
+  /* margin: 0; */
+  /* float: left; */
+  font-style: helvetica;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.imgwrap {
+  float: left;
+  margin: 5px 25px 15px 15px;
+}
+
+.art-store {
+  font-size: 60px;
+  font-family: helvetica;
+  font-weight: bold;
+  margin: auto;
+  width: 900px;
+}
+
+.main-painter {
+  margin: 15px;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.main-title {
+  font-size: 26px;
+  padding: 1px;
+  margin: 15px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.red-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin: 20px 0 20px 0;
+}
+
+.subblock {
+  border: 1px solid #cccccc;
+}
+
+.button2 {
+  height: 40px;
+  width: 240px;
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: helvetica;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin: 5px 10px 5px 10px;
+  background-color: #f8f8f8;
+}
+
+.footer-text {
+  padding: 0px;
+}
+
+.footer {
+  border: 1px solid black;
+  background-color: #222222;
+  color: #999999;
+  width: 900px;
+  height: 40px;
+  font-size: 14px;
+  font-family: helvetica;
+  text-align: center;
+  margin: 10px auto;
+  overflow: initial;
+}
+
+.nav-top {
+  list-style-type: none;
+  width: 900px;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.navtop:hover {
+  background-color: #111;
+}
+
+.navtop {
+  float: right;
+  display: block;
+  color: #999999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+.navbot:hover {
+  background-color: #cccccc;
+}
+
+.nav-bottom {
+  list-style-type: none;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-weight: bold;
+  font: arial;
+}
+
+.navbot {
+  float: left;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}

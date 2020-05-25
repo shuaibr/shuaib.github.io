@@ -1,0 +1,361 @@
+.body {
+  background-image: url("../images/stucco/stucco.png");
+  margin: auto;
+  background-color: white;
+}
+
+.block {
+  width: 900px;
+  margin: 10px auto;
+  background-color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  border: 1px solid #d9d9d9;
+}
+
+.block2 {
+  width: 900px;
+  overflow: hidden;
+  margin: auto;
+  background-color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  border: 1px solid #d9d9d9;
+}
+
+.imgwrap {
+  float: left;
+  margin: 5px 25px 15px 15px;
+}
+
+th {
+  padding: 5px;
+  text-align: left;
+}
+
+td {
+  padding-right: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+#main {
+  width: 300px;
+  height: 416px;
+}
+
+.det {
+  font-weight: normal;
+}
+
+.det-txt {
+  font-size: 13px;
+}
+.desc {
+  padding: 0px;
+  margin: 0;
+  float: left;
+  font-style: helvetica;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: helvetica;
+  font-weight: bold;
+  margin: auto;
+  width: 900px;
+}
+
+h2 {
+  margin: 0 15px 5px 15px;
+  border-bottom: 1px solid #cccccc;
+  width: 850px;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 26px;
+  padding: 1px;
+  margin: 15px;
+}
+
+h5 {
+  margin: 15px;
+}
+
+#prod-head {
+  margin: 20px 15px 5px 340px;
+  border-bottom: 1px solid #cccccc;
+  width: 550px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#prod-head2 {
+  text-align: left;
+  margin: 20px 15px 5px 15px;
+  border-bottom: 1px solid #cccccc;
+  width: 875px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#stat-zip {
+  margin: 0;
+  text-align: left;
+}
+
+.btn-prod {
+  text-align: left;
+}
+
+.prod-img {
+  margin: 2px 10px;
+}
+
+.sim-box {
+  border: 1px solid #cccccc;
+  margin: 10px;
+  text-align: center;
+}
+
+.sim-box2 {
+  border: 1px solid #cccccc;
+  margin: 10px;
+  height: 220px;
+  text-align: center;
+}
+
+#radio {
+  font-weight: bold;
+  padding: 0px 5px;
+}
+
+.small {
+  font-weight: normal;
+}
+
+.subblock {
+  border: 1px solid #cccccc;
+}
+
+.iform {
+  margin-left: 10px;
+}
+
+.iform1 {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 220px;
+  font-weight: normal;
+  margin-right: 35px;
+  margin-bottom: 0px;
+  background-color: #f9f9f9;
+}
+
+.iform2 {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 525px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  background-color: #f9f9f9;
+}
+
+.iform-col {
+  height: 13px;
+  width: 35px;
+  border-radius: 6px;
+}
+
+.iform-sel {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin: auto;
+  display: inline;
+  border-collapse: separate;
+  height: 25px;
+  width: 120px;
+  font-weight: normal;
+  background-color: #f9f9f9;
+}
+
+.iform-zip {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 110px;
+  font-weight: normal;
+  background-color: #f9f9f9;
+}
+
+.iform-state {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 90px;
+  font-weight: normal;
+  background-color: #f9f9f9;
+}
+
+#block-state {
+  padding: 0 20px;
+}
+
+.select {
+  font-weight: normal;
+}
+
+.button {
+  height: 30px;
+  width: 120px;
+  color: #222222;
+  background-color: #87cefa;
+  font-size: 10px;
+}
+
+.button2 {
+  height: 40px;
+  width: 240px;
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: helvetica;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin: 5px 10px 5px 10px;
+  background-color: #f8f8f8;
+}
+
+.btn-sml {
+  float: left;
+  margin: 6px;
+  width: 60px;
+  height: 24px;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+
+.btn-sml:hover {
+  background-color: #87cefa;
+}
+
+.btn-adj {
+  margin: 0px;
+}
+.btn {
+  background-color: #87cefa;
+  border: 1px outset #grey;
+  font-size: 10px;
+  /*    padding: 5px;*/
+  width: 100px;
+  height: 35px;
+  /*    text-align:left;*/
+  margin: 12px;
+  /*    margin-bottom: 5px;*/
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn-txt {
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.btnimg {
+  height: 20px;
+  width: 20px;
+}
+.addbutton {
+  height: 30px;
+  width: 280px;
+  color: blue;
+  font-size: 11px;
+  font-family: helvetica;
+  border: 1px outset black;
+  margin: 10px 10px;
+  background-color: #87cefa;
+}
+
+.button2:hover {
+  background-color: #87cefa;
+}
+
+.slider {
+  width: 300px;
+}
+
+.footer-text {
+  padding: 0px;
+}
+
+.footer {
+  border: 1px solid black;
+  background-color: #222222;
+  color: #999999;
+  width: 900px;
+  height: 40px;
+  font-size: 14px;
+  font-family: helvetica;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.nav-top {
+  list-style-type: none;
+  width: 900px;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.navtop:hover {
+  background-color: #111;
+}
+
+.navtop {
+  float: right;
+  display: block;
+  color: #999999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+.navbot:hover {
+  background-color: #cccccc;
+}
+
+.nav-bottom {
+  list-style-type: none;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-weight: bold;
+  font: arial;
+}
+
+.navbot {
+  float: left;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
