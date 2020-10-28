@@ -1,0 +1,135 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-image: url(../images/stucco/stucco.png);
+  background-repeat: repeat;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+main {
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  margin-top: 1em;
+  padding: 10px;
+  border: solid 1pt #e7e7e7;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.25em;
+  border-bottom: solid 1pt #e7e7e7;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+
+.favorites {
+  border: solid 1pt #e7e7e7;
+  margin-top: 1em;
+  padding: 10px;
+}
+main .leftsection {
+  width: 300px;
+  float: left;
+}
+.extra {
+  margin-top: 20px;
+}
+main .rightsection {
+  margin-left: 400px;
+}
+
+#buttons {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer-text {
+  padding: 0px;
+}
+
+.footer {
+  border: 1px solid black;
+  background-color: #222222;
+  color: #999999;
+  width: 900px;
+  height: 40px;
+  font-size: 14px;
+  font-family: helvetica;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.nav-top {
+  list-style-type: none;
+  width: 900px;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.navtop:hover {
+  background-color: #111;
+}
+
+.navtop {
+  float: right;
+  display: block;
+  color: #999999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+.navbot:hover {
+  background-color: #cccccc;
+}
+
+.nav-bottom {
+  list-style-type: none;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-weight: bold;
+  font: arial;
+}
+
+.navbot {
+  float: left;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
