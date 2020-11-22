@@ -2689,7 +2689,7 @@ button:disabled,
   -ms-order: 1;
   order: 1;
   border-radius: 0;
-  width: 30%;
+  width: 25%;
 }
 
 .spotlight .image img {
@@ -2823,7 +2823,7 @@ button:disabled,
 }
 
 .wrapper.alt3 {
-  background-color: #4F5D2F;
+  background-color: #4f5d2f;
   color: #fefae0;
 }
 
