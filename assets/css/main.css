@@ -2715,15 +2715,15 @@ button:disabled,
 }
 
 .spotlight:nth-child(1) {
-  background-color: #bc6c25;
+  background-color: #343a40;
 }
 
 .spotlight:nth-child(2) {
-  background-color: #394867;
+  background-color: #495057;
 }
 
 .spotlight:nth-child(3) {
-  background-color: #b07d62;
+  background-color: #6c757d;
 }
 
 .spotlight:nth-child(4) {
@@ -2823,7 +2823,7 @@ button:disabled,
 }
 
 .wrapper.alt3 {
-  background-color: #4f5d2f;
+  background-color: #1b263b;
   color: #fefae0;
 }
 
@@ -4064,21 +4064,21 @@ body.landing #page-wrapper {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/Gallery/IMG_20170802_052748_543");
+    url("../../images/Gallery/galaxy");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/Gallery/IMG_20170802_052748_543.jpg");
+    url("../../images/Gallery/galaxy.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/Gallery/IMG_20170802_052748_543.jpg");
+    url("../../images/Gallery/galaxy.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/Gallery/IMG_20170802_052748_543.jpg");
+    url("../../images/Gallery/galaxy.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4101,21 +4101,21 @@ body.is-mobile.landing .wrapper.style4 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/Gallery/IMG_20170802_052748_543");
+    url("../../images/Gallery/galaxy");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/Gallery/IMG_20170802_052748_543.jpg");
+    url("../../images/Gallery/galaxy.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../../images/Gallery/IMG_20170802_052748_543.jpg");
+    url("../../images/Gallery/galaxy.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/Gallery/IMG_20170802_052748_543.jpg");
+    url("../../images/Gallery/galaxy.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
