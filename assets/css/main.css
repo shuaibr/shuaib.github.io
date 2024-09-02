@@ -3847,7 +3847,7 @@ body.is-loading #banner:after {
 }
 
 #thoughts > header {
-  padding: 12em 10em 10em;
+  padding: 5em 1em;
   background-image: -moz-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
